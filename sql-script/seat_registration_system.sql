@@ -80,7 +80,7 @@ CREATE TABLE `food_table` (
   `food_name` varchar(255) DEFAULT NULL,
   `image_source` varchar(255) DEFAULT NULL,
   `price` varchar(255) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+)
 
 --
 -- Dumping data for table `food_table`
@@ -112,7 +112,7 @@ CREATE TABLE `movie_seat_table` (
   `seat_id` int(11) DEFAULT NULL,
   `user_id` int(11) DEFAULT NULL,
   `is_available` tinyint(1) DEFAULT '1'
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) 
 
 --
 -- Dumping data for table `movie_seat_table`
@@ -778,7 +778,7 @@ CREATE TABLE `movie_table` (
   `movie_id` int(11) NOT NULL,
   `movie_name` varchar(255) DEFAULT NULL,
   `image_path` varchar(255) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) 
 
 --
 -- Dumping data for table `movie_table`
@@ -804,7 +804,7 @@ INSERT INTO `movie_table` (`movie_id`, `movie_name`, `image_path`) VALUES
 CREATE TABLE `seat_table` (
   `seat_id` int(11) NOT NULL,
   `seat_number` varchar(255) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+)
 
 --
 -- Dumping data for table `seat_table`
@@ -896,7 +896,7 @@ CREATE TABLE `user_table` (
   `lastName` varchar(255) DEFAULT NULL,
   `email` varchar(255) DEFAULT NULL,
   `pass` varchar(255) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) 
 
 --
 -- Dumping data for table `user_table`
